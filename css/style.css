@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a, a:hover{
+    text-decoration: none;
+}
+header{
+    border-bottom: #b5b1b1 solid 1px;
+}
+.logo{
+
+float: left;
+}
+.logo img{width: 125px;margin: 10px 0;}
+.nav{
+
+float: right;
+}
+.nav ul{
+
+list-style: none;
+
+/* float: right; */
+}
+.nav ul li{
+
+float: left;
+
+margin: 20px 15px;
+
+/* color: black; */
+}
+.nav ul li a{
+
+color: black;
+
+text-transform: capitalize;
+transmission: 1s;
+}
+.nav ul li a:hover{
+    color:#0e65fe
+}
+.banner{
+
+text-align: center;
+
+margin: 20px;
+}
+.banner h1{
+
+font-size: 40px;
+
+font-weight: 700;
+
+margin: 0;
+}
+.banner h2{
+
+font-size: 40px;
+
+color: #008aff;
+
+margin: 0;
+
+font-weight: 700;
+}
+.banner p{
+
+width: 65%;
+
+margin: 10px auto;
+}
+.banner img{
+
+width: 600px;
+}
+.content{
+    
+margin: 50px;
+}
+.left_content{
+
+/* overflow: hidden; */
+
+text-align: right;
+
+/* background: orange; */
+}
+.left_content h1{
+
+/* float: right; */
+
+color: #F45567;
+
+font-weight: 700;
+
+font-size: 40px;
+}
+.left_content p{
+
+/* float: right; */
+
+width: 50%;
+
+margin: 0 0px 0 50%;
+}
+.right_content{
+
+/* background: yellow; */
+}
+.right_content h1{
+    
+font-size: 40px;
+    
+text-transform: capitalize;
+    
+width: 60%;
+    
+font-weight: 700;
+}
+.item{
+    
+margin: 100px;
+}
+.item1{
+
+text-align: center;
+
+background: #FDEAEC;
+
+padding-bottom: 51px;
+}
+.item1 img{
+
+width: 88%;
+}
+.item1 h3{
+
+width: 90%;
+
+margin-top: 12px;
+}
+.item1 p{
+
+width: 80%;
+
+text-align: left;
+
+margin-left: 35px;
+}
+.item2{
+
+text-align: center;
+
+background: #eaf9f4;
+
+padding-bottom: 50px;
+}
+.item2 img{
+
+width: 88%;
+}
+.item2 h3{
+
+width: 90%;
+}
+.item2 p{
+    
+width: 80%;
+    
+text-align: left;
+    
+margin-left: 35px;
+}
+.item3{
+
+text-align: center;
+
+background: #fff8e8;
+
+padding-bottom: 52px;
+}
+.item3 img{
+
+width: 88%;
+}
+.item3 h3{
+
+width: 90%;
+}
+.item3 p{
+    
+width: 80%;
+    
+text-align: left;
+    
+margin-left: 35px;
+}
+footer{
+
+background: #008aff;
+
+padding: 20px;
+}
+footer p{
+
+color: white;
+
+text-align: center;
+
+font-size: 16px;
+
+margin: 0;
+}
+footer span{
+    
+text-transform: uppercase;
+    
+font-weight: 700;
+    
+letter-spacing: 2px;
+}
